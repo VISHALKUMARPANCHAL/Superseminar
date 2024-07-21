@@ -44,7 +44,7 @@ function Register() {
         }
         
         try {
-            const url = "http://localhost:8080/auth/register";
+            const url = "https://superseminar-api.vercel.app/auth/register";
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
